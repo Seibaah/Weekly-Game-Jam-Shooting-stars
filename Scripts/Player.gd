@@ -5,12 +5,11 @@ export var maxSpeed = 450;
 export var accel = 25;
 var velocity = Vector2()
 
-func _physics_process(_delta):
+func _physics_process(delta):
 	get_input()
 	velocity = move_and_slide(velocity)
 	#Optional drag left effect that slowdown the player on the x-axis and pulls them slightly back
 	velocity.x = lerp (velocity.x, -25, 0.05)
-
 
 #add accel
 func get_input():

@@ -15,7 +15,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Godot Workspace"
+config/name="Shooting Stars"
 config/icon="res://icon.png"
 
 [input]
@@ -43,4 +43,5 @@ RIGHT={
 
 [rendering]
 
+quality/2d/use_pixel_snap=true
 environment/default_environment="res://default_env.tres"
